@@ -1,0 +1,430 @@
+	
+	body{
+
+		background: #070314;
+		background-image: url(img/fondoliso.jpg);
+	}
+
+	header img{
+
+		width: 31.09px;
+		height: 48px;
+		position: absolute;
+		left: 2%;
+		top: 2%;  
+
+	}
+
+	#input{
+
+		resize: none;
+		background: transparent;
+		outline: none;
+		position: absolute;
+		top: 168px;
+		left: 240px;
+		width: 600px;
+		height: 400px;
+		border: none;
+		/*FUENTE*/
+		text-transform: lowercase;
+		color: #00D6DB;
+		font-size: 32px;
+
+	}
+
+	::placeholder{
+
+		color: #00D6DB;
+		opacity: 0.6;
+
+	}
+
+	#alerta{
+
+		position: absolute;
+		left: 330px;
+		top: 660px;
+
+	}
+
+	.instruccion{
+
+		background: transparent;
+		display: inline;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		resize: none;
+		position: absolute;
+		height: 15px;
+		width: 400px;
+		top: 660px;
+		left: 350px;
+		/*FUENTE*/
+		color: #FFFFFF;
+		font-size: 12px;
+
+	}
+
+	#botonEncriptar{
+
+		position: absolute;
+		top: 685px;
+		left: 18%;
+		width: 328px;
+		height: 67px;
+		background: #00A1A5;
+		border: none;
+		border-radius: 24px;
+		/*FUENTE*/
+		font-size: 20px;
+		color: #070314;
+
+	}
+
+	#botonDesencriptar{
+
+		position: absolute;
+		top: 685px;
+		left: 40%;
+		width: 328px;
+		height: 67px;
+		background: #FFFFFF;
+		border: none;
+		border-radius: 24px;
+		/*FUENTE*/
+		font-size: 20px;
+		color: #070314;
+
+	}
+
+	#cambioCodificacion{
+
+		position: absolute;
+		top: 775px;
+		left: 30%;
+		background: transparent; 
+		border-radius: 13px;
+		padding: 10px;
+		border: 1px solid #00A1A5;
+		width: 300px;
+		/*FUENTE*/
+		text-decoration: none;
+		font-size: 20px;
+		color: #FFFFFF;
+
+	}
+
+	#marcoOutput{
+
+		height: 790px;
+		position: absolute;
+		right: 37px;
+		top: 37px;
+
+	}
+
+	#output{
+
+		background: #070314;
+		display: inline;
+		border: none;
+		outline: none;
+		resize: none;
+		width: 344px;
+		height: 713px;
+		position: absolute;
+		top: 75px;
+		right: 41px;
+		/*FUENTE*/
+		color: #00F9FF;
+		font-size: 24px;
+
+	}
+
+	#muñeco{
+
+		position: absolute;
+		top: 140px;
+		right: 50px;
+		width: 325px;
+
+	}
+
+	#noEncontrado{
+
+		background: transparent;
+		position: absolute;
+		top: 470px;
+		right: 42px;
+		border: none;
+		outline: none;
+		resize: none;
+		/*FUENTE*/
+		font-size: 28px;
+		font-weight: 700;
+		color: #FFFFFF;
+		text-align: center;
+
+	}
+
+	#explicacion{
+
+		background: transparent;
+		position: absolute;
+		top: 560px;
+		right: 47px;
+		width: 320px;
+		border: none;
+		outline: none;
+		resize: none;
+		/*FUENTE*/
+		font-size: 20px;
+		color: #FFFFFF;
+		text-align: center;
+
+	}
+
+	#botonCopiar{
+
+		visibility: hidden;
+		position: absolute;
+		top: 685px;
+		right: 62px;
+		width: 300px;
+		height: 67px;
+		background: transparent;
+		border: 2px solid #00A1A5 ;
+		border-radius: 24px;
+		/*FUENTE*/
+		font-size: 20px;
+		color: #FFFFFF;
+
+	}
+
+	.cambiarEncriptacion{
+
+		visibility: hidden;
+
+	}
+
+	#fondoCambio{
+
+		width: 550px;
+		position: absolute;
+		top: 100px;
+		left: 385px;
+		opacity: 0.4;
+
+	}
+
+	#correcto{
+
+		display: inline;
+		width: 20px;
+		position: absolute;
+		top: 247px;
+		left: 450px;
+	}
+
+	#correcto1{
+
+		display: inline;
+		width: 20px;
+		position: absolute;
+		top: 375px;
+		left: 450px;
+	}
+
+	#cambioContinuar{
+
+		position: absolute;
+		bottom: 160px;
+		right: 894px;
+		background: #00A1A5; 
+		border-radius: 13px;
+		padding: 10px;
+		width: 300px;
+		/*FUENTE*/
+		text-decoration: none;
+		font-size: 20px;
+		color: #070314;
+
+	}
+
+	#textoCantidad{
+
+		background: transparent;
+		display: inline;
+		border: none;
+		outline: none;
+		resize: none;
+		width: 344px;
+		height: 60px;
+		position: absolute;
+		top: 160px;
+		left: 450px;
+		/*FUENTE*/
+		color: #00F9FF;
+		font-size: 22px;
+	}
+
+	#cantidadNueva{
+
+		resize: none;
+		background: transparent;
+		outline: none;
+		position: absolute;
+		top: 240px;
+		left: 475px;
+		width: 300px;
+		height: 30px;
+		border: none;
+		/*FUENTE*/
+		color: #FFFFFF;
+		font-size: 20px;
+
+	}
+
+	::placeholder{
+
+		color: #FFFFFF;
+		opacity: 0.7;
+
+	}
+
+	#textoLetras{
+
+		background: transparent;
+		display: inline;
+		border: none;
+		outline: none;
+		resize: none;
+		width: 334px;
+		height: 60px;
+		position: absolute;
+		top: 330px;
+		left: 450px;
+		/*FUENTE*/
+		color: #00F9FF;
+		font-size: 22px;
+
+	}
+
+	#nuevasLetras{
+
+		resize: none;
+		background: transparent;
+		outline: none;
+		position: absolute;
+		top: 368px;
+		left: 475px;
+		width: 300px;
+		height: 30px;
+		border: none;
+		/*FUENTE*/
+		color: #FFFFFF;
+		font-size: 20px;
+
+	}
+
+	#textoCodigo{
+
+		background: transparent;
+		display: inline;
+		border: none;
+		outline: none;
+		resize: none;
+		width: 344px;
+		height: 60px;
+		position: absolute;
+		top: 448px;
+		left: 450px;
+		/*FUENTE*/
+		color: #00F9FF;
+		font-size: 22px;
+
+	}
+
+	#nuevoCodigo{
+
+		resize: none;
+		background: transparent;
+		outline: none;
+		position: absolute;
+		top: 496px;
+		left: 475px;
+		width: 300px;
+		height: 30px;
+		border: none;
+		/*FUENTE*/
+		color: #FFFFFF;
+		font-size: 20px;
+
+	}
+
+	#instruccionesCambio{
+
+		position: absolute;
+		top: 560px;
+		left: 450px;
+		background: #00A1A5;
+		width: 280px;
+		color: #070314;
+	}
+
+	#instruccionesCambio1{
+
+		position: absolute;
+		top: 585px;
+		left: 450px;
+		background: #00A1A5;
+		width: 335px;
+		color: #070314;
+	}
+
+	#nombre{
+
+		width: 250px;
+		position: absolute;
+		bottom: 10px;
+		left: -12px;
+
+	}
+
+	#in{
+
+		width: 40px;
+		position: absolute;
+		left: 8px;
+		bottom: 225px;
+
+	}
+
+	#github{
+
+		width: 50px;
+		position: absolute;
+		left: 3px;
+		bottom: 170px;
+
+	}
+
+	#alura{
+
+		width: 20px;
+		position: absolute;
+		left: 18px;
+		bottom: 130px;
+
+	}
+
+	#blogger{
+
+		width: 50px;
+		position: absolute;
+		left: 2px;
+		bottom: 70px;
+
+	}
